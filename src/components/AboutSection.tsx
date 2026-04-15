@@ -62,7 +62,6 @@ const AboutSection = ({ fields }: AboutSectionProps) => {
               ))}
             </div>
           </div>
-          
 
           {/* <div className="relative lg:pt-8">
             <div className="absolute -top-10 -right-20 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] rounded-full bg-muted/60 pointer-events-none hidden lg:block" />
