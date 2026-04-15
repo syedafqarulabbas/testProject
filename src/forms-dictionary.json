@@ -1,0 +1,223 @@
+{
+  "_comment": "Sitecore dictionary for Contact forms. Key format: Forms_{Form}_{Category}_{Identifier}. Add as Dictionary entries in Sitecore (e.g. under /sitecore/system/Dictionary).",
+  "_forms": ["GeneralInquiry", "Complaint", "Investment"],
+
+  "Forms_GeneralInquiry_Label_FullName": "Full Name",
+  "Forms_GeneralInquiry_Label_Company": "Company / Organization",
+  "Forms_GeneralInquiry_Label_Email": "Email Address",
+  "Forms_GeneralInquiry_Label_Phone": "Phone number",
+  "Forms_GeneralInquiry_Label_Category": "Category",
+  "Forms_GeneralInquiry_Label_Subject": "Subject of Inquiry",
+  "Forms_GeneralInquiry_Label_Message": "Message / Question",
+
+  "Forms_GeneralInquiry_Placeholder_Company": "If applicable",
+  "Forms_GeneralInquiry_Placeholder_Select": "Select",
+
+  "Forms_GeneralInquiry_Validation_FullNameRequired": "Full name is required",
+  "Forms_GeneralInquiry_Validation_FullNameMax": "Full name must be at most 200 characters",
+  "Forms_GeneralInquiry_Validation_CompanyRequired": "Company / Organization is required",
+  "Forms_GeneralInquiry_Validation_CompanyMax": "Company name must be at most 200 characters",
+  "Forms_GeneralInquiry_Validation_EmailRequired": "Email is required",
+  "Forms_GeneralInquiry_Validation_EmailInvalid": "Please enter a valid email address",
+  "Forms_GeneralInquiry_Validation_PhoneMax": "Phone number must be at most 30 characters",
+  "Forms_GeneralInquiry_Validation_CategoryRequired": "Category is required",
+  "Forms_GeneralInquiry_Validation_SubjectRequired": "Subject of inquiry is required",
+  "Forms_GeneralInquiry_Validation_MessageMin": "Message must be at least 10 characters",
+  "Forms_GeneralInquiry_Validation_MessageMax": "Message must be at most 200 characters",
+
+  "Forms_GeneralInquiry_Option_Category_Procurement": "Procurement",
+  "Forms_GeneralInquiry_Option_Category_Operations": "Operations",
+  "Forms_GeneralInquiry_Option_Category_General": "General Inquiry",
+  "Forms_GeneralInquiry_Option_Subject_Services": "Airport Services",
+  "Forms_GeneralInquiry_Option_Subject_Opportunities": "Business Opportunities",
+  "Forms_GeneralInquiry_Option_Subject_Other": "Other",
+
+  "Forms_GeneralInquiry_Helper_CharCount": "{0} / 200",
+
+  "Forms_GeneralInquiry_Button_Submit": "Submit an Inquiry",
+  "Forms_GeneralInquiry_Button_Submitting": "Submitting…",
+
+  "Forms_GeneralInquiry_Status_Success": "Your inquiry has been sent successfully.",
+  "Forms_GeneralInquiry_Status_Error": "Failed to send inquiry. Please try again.",
+  "Forms_GeneralInquiry_Status_SubmissionFailed": "Submission failed",
+
+  "Forms_Complaint_Section_ComplainantInfo": "Complainant Information",
+  "Forms_Complaint_Section_ComplainantDetails": "Complainant Details",
+
+  "Forms_Complaint_Label_FullName": "Full Name",
+  "Forms_Complaint_Label_Phone": "Phone number",
+  "Forms_Complaint_Label_Email": "Email Address",
+  "Forms_Complaint_Label_ComplaintType": "Type of Complaint",
+  "Forms_Complaint_Label_Details": "Details of Complaint",
+
+  "Forms_Complaint_Placeholder_ComplaintType": "Select Complaint Type",
+
+  "Forms_Complaint_Validation_FullNameRequired": "Full name is required",
+  "Forms_Complaint_Validation_FullNameMax": "Full name must be at most 200 characters",
+  "Forms_Complaint_Validation_PhoneMax": "Phone number must be at most 30 characters",
+  "Forms_Complaint_Validation_EmailRequired": "Email is required",
+  "Forms_Complaint_Validation_EmailInvalid": "Please enter a valid email address",
+  "Forms_Complaint_Validation_ComplaintTypeRequired": "Type of complaint is required",
+  "Forms_Complaint_Validation_DetailsMin": "Details must be at least 10 characters",
+  "Forms_Complaint_Validation_DetailsMax": "Details must be at most 200 characters",
+
+  "Forms_Complaint_Option_Type_Service": "Service Quality",
+  "Forms_Complaint_Option_Type_Facility": "Facility Issue",
+  "Forms_Complaint_Option_Type_Staff": "Staff Conduct",
+  "Forms_Complaint_Option_Type_Other": "Other",
+
+  "Forms_Complaint_Helper_CharCount": "{0} / 200",
+
+  "Forms_Complaint_FileUpload_AriaLabel": "Upload file (PDF or JPG, max 5 MB)",
+  "Forms_Complaint_FileUpload_Success": "File uploaded successfully.",
+  "Forms_Complaint_FileUpload_Remove": "Remove {0}",
+  "Forms_Complaint_FileUpload_DismissError": "Dismiss error",
+
+  "Forms_Complaint_Button_UploadFile": "Upload a File",
+  "Forms_Complaint_Button_Submit": "Raise a Complaint",
+  "Forms_Complaint_Button_Submitting": "Submitting…",
+
+  "Forms_Complaint_Status_Success": "Your complaint has been submitted successfully.",
+  "Forms_Complaint_Status_Error": "Failed to submit complaint. Please try again.",
+  "Forms_Complaint_Status_SubmissionFailed": "Submission failed",
+
+   "Forms_Complaint_Footer": "All complaints are reviewed by DACO's Customer Relations Department and acknowledged within 5 working days.",
+
+  "Forms_Shared_FileValidation_TooLarge": "File must be 5 MB or smaller.",
+  "Forms_Shared_FileValidation_InvalidType": "Only PDF and JPG files are allowed.",
+
+  "Forms_Investment_Section_01": "Investor Information",
+  "Forms_Investment_Section_02": "Investment Area of Interest",
+  "Forms_Investment_Section_02_Helper": "Choose one or more",
+  "Forms_Investment_Section_03": "Proposal Details",
+  "Forms_Investment_Section_04": "Supporting Documents",
+  "Forms_Investment_Section_04_Helper": "Upload relevant documents to support your proposal (optional)",
+  "Forms_Investment_Section_05": "Declaration & Consent",
+
+  "Forms_Investment_Label_FullName": "Full Name",
+  "Forms_Investment_Label_CompanyName": "Company / Organization Name",
+  "Forms_Investment_Label_PositionTitle": "Position / Title",
+  "Forms_Investment_Label_Nationality": "Nationality",
+  "Forms_Investment_Label_BusinessRegNumber": "Business Registration Number",
+  "Forms_Investment_Label_ContactEmail": "Contact Email",
+  "Forms_Investment_Label_ContactPhone": "Contact Phone",
+  "Forms_Investment_Label_ProjectTitle": "Investment Project Title",
+  "Forms_Investment_Label_BriefDescription": "Brief Description of the Proposal",
+  "Forms_Investment_Label_EstimatedInvestment": "Estimated Investment",
+  "Forms_Investment_Label_EstimatedInvestment_Opt": "(opt)",
+  "Forms_Investment_Label_ProposedTimeline": "Proposed Timeline",
+  "Forms_Investment_Label_ProposedTimeline_Opt": "(opt)",
+  "Forms_Investment_Label_LocationPreference": "Location Preference",
+
+  "Forms_Investment_Placeholder_IfApplicable": "If applicable",
+  "Forms_Investment_Placeholder_PleaseSpecify": "Please specify",
+  "Forms_Investment_Placeholder_EstimatedInvestment": "e.g., SAR 10.000",
+  "Forms_Investment_Placeholder_ProposedTimeline": "e.g., 12-18 months",
+  "Forms_Investment_Placeholder_SelectLocation": "Select Location",
+
+  "Forms_Investment_Validation_FullNameRequired": "Full name is required",
+  "Forms_Investment_Validation_FullNameMax": "Full name must be at most 200 characters",
+  "Forms_Investment_Validation_CompanyNameRequired": "Company / Organization name is required",
+  "Forms_Investment_Validation_CompanyNameMax": "Company name must be at most 200 characters",
+  "Forms_Investment_Validation_PositionTitleRequired": "Position / Title is required",
+  "Forms_Investment_Validation_PositionMax": "Position must be at most 200 characters",
+  "Forms_Investment_Validation_NationalityMax": "Nationality must be at most 100 characters",
+  "Forms_Investment_Validation_BusinessRegMax": "Business registration number must be at most 100 characters",
+  "Forms_Investment_Validation_ContactEmailRequired": "Contact email is required",
+  "Forms_Investment_Validation_EmailInvalid": "Please enter a valid email address",
+  "Forms_Investment_Validation_ContactPhoneRequired": "Contact phone is required",
+  "Forms_Investment_Validation_ContactPhoneMax": "Contact phone must be at most 30 characters",
+  "Forms_Investment_Validation_InvestmentAreaRequired": "Select at least one investment area",
+  "Forms_Investment_Validation_OtherAreaSpecify": "Please specify the other investment area",
+  "Forms_Investment_Validation_OtherAreaSpecifyMax": "Other area must be at most 300 characters",
+  "Forms_Investment_Validation_EstimatedInvestmentMax": "Estimated investment must be at most 100 characters",
+  "Forms_Investment_Validation_ProposedTimelineMax": "Proposed timeline must be at most 100 characters",
+  "Forms_Investment_Validation_ProjectTitleRequired": "Investment project title is required",
+  "Forms_Investment_Validation_ProjectTitleMax": "Project title must be at most 200 characters",
+  "Forms_Investment_Validation_BriefDescriptionMin": "Brief description must be at least 10 characters",
+  "Forms_Investment_Validation_BriefDescriptionMax": "Brief description must be at most 200 characters",
+  "Forms_Investment_Validation_AgreedToTerms": "You must agree to the declaration and consent",
+
+  "Forms_Investment_Option_Location_KFIA": "KFIA International Airport",
+  "Forms_Investment_Option_Location_AQI": "AQI International Airport",
+  "Forms_Investment_Option_Location_HOF": "HOF International Airport",
+  "Forms_Investment_Option_Location_NoPreference": "No Preference",
+
+  "Forms_Investment_Checkbox_Airline": "Airline Partnerships",
+  "Forms_Investment_Checkbox_MRO": "Maintenance, Repair & Overhaul (MRO)",
+  "Forms_Investment_Checkbox_Cargo": "Cargo & Logistics",
+  "Forms_Investment_Checkbox_Retail": "Retail & F&B Concessions",
+  "Forms_Investment_Checkbox_RealEstate": "Real Estate & Leasing",
+  "Forms_Investment_Checkbox_Other": "Other (please specify)",
+  "Forms_Investment_Checkbox_Declaration": "I confirm that the information provided is accurate and agree to DACO's investment review process and privacy policy.",
+
+  "Forms_Investment_Helper_CharCount": "{0} / 200",
+
+  "Forms_Investment_FileUpload_BusinessProfile_Title": "Upload Business Profile / Company Brochure",
+  "Forms_Investment_FileUpload_BusinessProfile_Hint": "PDF or JPG, max 5 MB",
+  "Forms_Investment_FileUpload_BusinessProfile_AriaLabel": "Upload business profile (PDF or JPG, max 5 MB)",
+  "Forms_Investment_FileUpload_Proposal_Title": "Upload Detailed Proposal",
+  "Forms_Investment_FileUpload_Proposal_Hint": "PDF or JPG, max 5 MB",
+  "Forms_Investment_FileUpload_Proposal_AriaLabel": "Upload proposal (PDF or JPG, max 5 MB)",
+  "Forms_Investment_FileUpload_Success": "File uploaded successfully.",
+  "Forms_Investment_FileUpload_Remove": "Remove {0}",
+  "Forms_Investment_FileUpload_DismissError": "Dismiss error",
+
+  "Forms_Investment_Button_ChooseFile": "Choose File",
+  "Forms_Investment_Button_Submit": "Submit Investment Proposal",
+  "Forms_Investment_Button_Submitting": "Submitting…",
+
+  "Forms_Investment_Status_Success": "Your investment proposal has been submitted successfully.",
+  "Forms_Investment_Status_Error": "Failed to submit proposal. Please try again.",
+  "Forms_Investment_Status_SubmissionFailed": "Submission failed",
+
+  "_dropdownOptions": {
+    "_comment": "Dropdown/select option arrays per form. Use with DropdownField options prop. value = form value; label = display (or use labelKey to resolve from Sitecore).",
+    "GeneralInquiry": {
+      "category": [
+        { "value": "procurement", "label": "Procurement", "labelKey": "Forms_GeneralInquiry_Option_Category_Procurement" },
+        { "value": "operations", "label": "Operations", "labelKey": "Forms_GeneralInquiry_Option_Category_Operations" },
+        { "value": "general", "label": "General Inquiry", "labelKey": "Forms_GeneralInquiry_Option_Category_General" }
+      ],
+      "subject": [
+        { "value": "services", "label": "Airport Services", "labelKey": "Forms_GeneralInquiry_Option_Subject_Services" },
+        { "value": "opportunities", "label": "Business Opportunities", "labelKey": "Forms_GeneralInquiry_Option_Subject_Opportunities" },
+        { "value": "other", "label": "Other", "labelKey": "Forms_GeneralInquiry_Option_Subject_Other" }
+      ]
+    },
+    "Complaint": {
+      "complaintType": [
+        { "value": "service", "label": "Service Quality", "labelKey": "Forms_Complaint_Option_Type_Service" },
+        { "value": "facility", "label": "Facility Issue", "labelKey": "Forms_Complaint_Option_Type_Facility" },
+        { "value": "staff", "label": "Staff Conduct", "labelKey": "Forms_Complaint_Option_Type_Staff" },
+        { "value": "other", "label": "Other", "labelKey": "Forms_Complaint_Option_Type_Other" }
+      ]
+    },
+    "Investment": {
+      "locationPreference": [
+        { "value": "KFIA International Airport", "label": "KFIA International Airport", "labelKey": "Forms_Investment_Option_Location_KFIA" },
+        { "value": "AQI International Airport", "label": "AQI International Airport", "labelKey": "Forms_Investment_Option_Location_AQI" },
+        { "value": "HOF International Airport", "label": "HOF International Airport", "labelKey": "Forms_Investment_Option_Location_HOF" },
+        { "value": "No Preference", "label": "No Preference", "labelKey": "Forms_Investment_Option_Location_NoPreference" }
+      ]
+    }
+  },
+
+  "_checkboxOptions": {
+    "_comment": "Checkbox option arrays per form. value = form field key (investmentAreas.airline etc); label = display (or use labelKey to resolve from Sitecore). Order matches form/schema.",
+    "Investment": {
+      "investmentAreas": [
+        { "value": "airline", "label": "Airline Partnerships", "labelKey": "Forms_Investment_Checkbox_Airline" },
+        { "value": "mro", "label": "Maintenance, Repair & Overhaul (MRO)", "labelKey": "Forms_Investment_Checkbox_MRO" },
+        { "value": "cargo", "label": "Cargo & Logistics", "labelKey": "Forms_Investment_Checkbox_Cargo" },
+        { "value": "retail", "label": "Retail & F&B Concessions", "labelKey": "Forms_Investment_Checkbox_Retail" },
+        { "value": "realEstate", "label": "Real Estate & Leasing", "labelKey": "Forms_Investment_Checkbox_RealEstate" },
+        { "value": "other", "label": "Other (please specify)", "labelKey": "Forms_Investment_Checkbox_Other" }
+      ],
+      "agreedToTerms": {
+        "label": "I confirm that the information provided is accurate and agree to DACO's investment review process and privacy policy.",
+        "labelKey": "Forms_Investment_Checkbox_Declaration"
+      }
+    }
+  }
+}

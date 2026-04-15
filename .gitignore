@@ -1,0 +1,55 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files. 
+*.env
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# next.js
+/.next*/
+/out/
+
+# graphql code generation
+/.generated
+*.graphql.d.ts
+*.graphqls.d.ts
+
+# misc
+.DS_Store
+
+# local env files
+# .env.local  ← Commented out to allow committing .env.local
+.env.*.local
+
+# Log files
+*.log*
+
+# sitecore
+*.deploysecret.config
+
+# vercel
+.vercel
+
+# Sitecore folders (ignore any folder with "sitecore" in the name, except sitecore-packages)
+**/sitecore*/
+!**/sitecore-packages/
+
+# Error logs and test files
+errorlogsitecore.txt
+bigjsoncm.json
+bigjson.json
+home.html
+
+# Claude Code config
+.claude/
+
+# Compressed archives
+*.tar.gz
+*.zip
+/.vs/DACO-Sitecore-JSS
+/.vs/slnx.sqlite
+*.sqlite-journal
+/.vs
+/nul
