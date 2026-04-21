@@ -43,7 +43,7 @@ const HeroSection = ({ fields }: HeroSectionProps) => {
             <CustomImage field={f.heroImage} className="w-full h-full object-cover" isLCP />
           </div>
         </div> */}
-        <div className="border flex justify-center mb-8 sm:mb-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[-10px] lg:z-10">
+        <div className=" flex justify-center mb-8 sm:mb-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[-10px] lg:z-10">
   <div className="rounded-full shadow-xl border-4 border-background relative bottom-[48px] right-[40%]">
     <CustomImage 
       field={f.heroImage} 

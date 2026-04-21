@@ -76,12 +76,10 @@ const layoutData = {
             leftEyebrow: { value: "Full Stack Development" },
             leftTitle: { value: "Enterprise cloud ready tailor made solutions" },
             leftParagraph1: {
-              value:
-                "To remain competitive in the current business landscape, companies are forced to provide products and services that provide competitive edge.",
+              value: "To remain competitive in the current business landscape, companies are forced to provide products and services that provide competitive edge.",
             },
             leftParagraph2: {
-              value:
-                "We provide services to the companies in developing digital products and solutions that are tailormade and meet business needs and customers expectations.",
+              value: "We provide services to the companies in developing digital products and solutions that are tailormade and meet business needs and customers expectations.",
             },
             rightLabel: { value: "Full Stack<br/>Development" },
             illustration: { value: { src: "/assets/fullstack-dev.png", alt: "Full Stack Development", width: "800", height: "800" } },
@@ -94,6 +92,19 @@ const layoutData = {
             leftParagraph2: { value: "From discovery to release, our teams work with agile methods to reduce time-to-market while improving quality and product experience." },
             rightLabel: { value: "Product<br/>Engineering" },
             illustration: { value: { src: "/assets/hero-team.jpg", alt: "Product Engineering", width: "800", height: "800" } },
+            readMore: { value: "Read More" },
+          },
+          {
+            leftEyebrow: { value: "Cloud Solutions" },
+            leftTitle: { value: "Scalable cloud infrastructure for modern businesses" },
+            leftParagraph1: { 
+              value: "Leverage the power of cloud computing to scale your business efficiently and reduce operational costs." 
+            },
+            leftParagraph2: { 
+              value: "Our cloud experts help you migrate, manage, and optimize your infrastructure on AWS, Azure, or Google Cloud." 
+            },
+            rightLabel: { value: "Cloud<br/>Solutions" },
+            illustration: { value: { src: "/assets/fullstack-dev.png", alt: "Cloud Solutions", width: "800", height: "800" } },
             readMore: { value: "Read More" },
           },
         ],
@@ -204,9 +215,9 @@ const Index = () => {
       <section id="products">
         <TestimonialsSection fields={pageData.testimonials} />
       </section>
-      <section id="career">
+      {/* <section id="career">
         <ClientsSection fields={pageData.clients} />
-      </section>
+      </section> */}
       <ContactSection fields={pageData.contact} />
       <Footer fields={pageData.footer} />
     </div>

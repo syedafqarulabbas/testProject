@@ -1,14 +1,33 @@
-import { Text, RichText } from "components/SitecoreFields";
+import { Text, RichText, CustomImage } from "components/SitecoreFields";
 
-import type { RichTextField, TextField } from "@sitecore-jss/sitecore-jss-nextjs";
+import type { RichTextField, TextField, ImageField } from "@sitecore-jss/sitecore-jss-nextjs";
 
 type ClientsFields = {
   title: TextField;
   description: RichTextField;
-  clients: Array<TextField>;
+  clients: Array<ImageField>;
 };
+
 const ClientsSection = ({ fields }: { fields: ClientsFields }) => {
   const f = fields;
+
+  const partnerImages = [
+    'partners1.png',
+    'partners2.png',
+    'partners3.png',
+    'partners4.png',
+    'partners5.png',
+    'partners6.png',
+    'partners7.png',
+    'partners8.png',
+    'partners9.png',
+    'partners10.png',
+    'partners11.png',
+    'partners12.png',
+    'partners13.png',
+    'partners14.png',
+    'partners15.png'
+  ];
 
   return (
     <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
@@ -23,16 +42,21 @@ const ClientsSection = ({ fields }: { fields: ClientsFields }) => {
 
           <div className="flex-1">
             <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
-              {f.clients.map((client, i) => (
+              {partnerImages.map((imageName, i) => (
                 <div
-                  // eslint-disable-next-line react/no-array-index-key
                   key={i}
-                  className="flex items-center justify-center h-14 sm:h-16 lg:h-20 px-2 border border-border rounded-lg hover:shadow-md transition-shadow"
+                  className="flex items-center justify-center h-14 sm:h-16 lg:h-20 px-2  bg-white"
                 >
-                  <Text
-                    field={client}
-                    tag="span"
-                    className="text-[10px] sm:text-xs font-semibold text-muted-foreground text-center leading-tight"
+                  <CustomImage
+                    field={{
+                      value: {
+                        src: `/assets/${imageName}`,
+                        alt: `Partner ${i + 1}`,
+                        width: 100,
+                        height: 50,
+                      },
+                    }}
+                    className="w-auto h-8 sm:h-10 lg:h-12 object-contain"
                   />
                 </div>
               ))}
