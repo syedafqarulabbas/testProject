@@ -28,7 +28,7 @@ const ContactSection = ({ fields }: { fields: ContactFields }) => {
   };
 
   return (
-    <section id="contact" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-[#fafafa]">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
           <div className="flex-1">
